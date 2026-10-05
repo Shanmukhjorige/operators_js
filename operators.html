@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var a = 10;
+      var b = 20;
+      // Arithmetic operator
+      document.write("<h3>Arithmetic Operator</h3>");
+      document.write("Addition:" + (a + b), "<br>");
+      document.write("Subtraction:" + (a - b), "<br>");
+      document.write("Multiplication:" + a * b, "<br>");
+      document.write("Division:" + a / b, "<br>");
+      document.write("Exponent:" + a ** b, "<br>");
+      document.write("Modulus:" + (a % b), "<br>");
+
+      // Relational operator
+      document.write("<h3>Relational Operator</h3>");
+      document.write("Strict equality:" + (a === b), "<br>");
+      document.write("Equality:" + (a == b), "<br>");
+      document.write("not equal:" + (a != b), "<br>");
+      document.write("greater than:" + (a > b), "<br>");
+      document.write("greaterthan or equal:" + (a >= b), "<br>");
+      document.write("lessthan:" + (a < b), "<br>");
+      document.write("lesstan or equal:" + (a <= b), "<br>");
+
+      // Logical operator
+      document.write("<h3>Logical Operator</h3>");
+      document.write("Logical AND operator(&&):" + (a > 5 && a > 5), "<br>");
+      document.write("Logical OR operator(||):" + (a > 5 || b > 5), "<br>");
+      document.write("Logical NOT operator(!):" + !(a > 5), "<br>");
+
+      // Assignment Operator
+      document.write("<h3>Assignment operator</h3>");
+      var c = 10;
+      document.write("Assign :" + c + "<br>");
+
+      c += 5;
+      document.write("Add&Assign:" + c + "<br>");
+
+      c -= 3;
+      document.write("Sub&Assign :" + c + "<br>");
+
+      c *= 2;
+      document.write("Multipy&assign :" + c + "<br>");
+
+      c /= 4;
+      document.write("Divide&Assign :" + c + "<br>");
+
+      c; //= 2;
+      document.write("Floordivison&Assign :" + c + "<br>");
+
+      c %= 3;
+      document.write("Modulus&Assign :" + c + "<br>");
+
+      c **= 2;
+      document.write("Exponent&Assign :" + c + "<br>");
+
+      // Bitwise Operator
+      document.write("<h3>Bitwise Operator</h3>");
+      document.write("Bitwise AND(&):" + (a & b), "<br>");
+      document.write("Bitwise OR(|):" + (a | b), "<br>");
+      document.write("Bitwise XOR(^):" + (a ^ b), "<br>");
+      document.write("Bitwise NOT(~a):" + ~a, "<br>");
+      document.write("Right shift(a >> 1):" + (a >> 1), "<br>");
+      document.write("Left Shift(a << 1):" + (a << 1), "<br>");
+    </script>
+  </body>
+</html>
